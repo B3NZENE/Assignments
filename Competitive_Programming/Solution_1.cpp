@@ -21,8 +21,7 @@ int printStatistics(const vector<int>& nums) {
     double average = static_cast<double>(sum) / nums.size();
     int mode = findMode(nums);
 
-    cout << "min, max, sum, average and mode after addition of " << nums.back() << " is "
-         << min_val << ", " << max_val << ", " << sum << ", " << average << ", " << mode << ".\n";
+    cout << "min, max, sum, average and mode after addition of " << nums.back() << " is " << min_val << ", " << max_val << ", " << sum << ", " << average << ", " << mode << ".\n";
 		 
 	return 0;
 }
